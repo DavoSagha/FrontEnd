@@ -1,0 +1,42 @@
+/* GENERALES */
+:root{
+    --grey-obs: #272727;
+    --grey-clair: #5f5c5c;
+    --violet: #5e17eb;
+    --blanco: #d5d3d3;
+    --violet-fondo:#5e17eb83;
+    --grey-palabras:#212020;
+}
+.seccion-oscura{
+    color: #d5d3d3;
+    background-color: #272727;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: #5f5c5c;
+}
+
+h1:hover,h2:hover{
+    color: #5e17eb;
+    transition: all 0.2s ease-in-out;
+}
+/*  */
+.row{
+    color: #d5d3d3;
+    padding: 20px;
+    background-color: #5f5c5c;
+}
+
+.contenedor{
+    width: auto;
+}
+
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+}
+
+.img-proyecto{
+    box-shadow: 10px 10px 15px #000000;
+}

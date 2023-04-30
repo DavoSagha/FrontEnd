@@ -1,0 +1,32 @@
+/* GENERALES */
+:root{
+    --grey-obs: #272727;
+    --grey-clair: #5f5c5c;
+    --violet: #5e17eb;
+    --blanco: #f4f4f4;
+    --violet-fondo:#5e17eb83;
+    --grey-palabras:#212020;
+}
+.seccion-oscura{
+    color: white;
+    background-color: var(--grey-obs);
+}
+
+.seccion-clara{
+    color: black;
+    background-color: var(--grey-clair);
+}
+
+h1,h2:hover{
+    color: #5e17eb;
+    transition: all 0.2s ease-in-out;
+}
+
+div{
+    background-color:#5f5c5c;
+}
+
+app-social{
+    float: right;
+    margin-top: 25px;
+}

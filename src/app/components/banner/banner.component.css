@@ -1,0 +1,98 @@
+/* GENERALES */
+:root{
+    --grey-obs: #272727;
+    --grey-clair: #5f5c5c;
+    --violet: #5e17eb;
+    --blanco: #d5d3d3;
+    --violet-fondo:#5e17eb83;
+    --grey-palabras:#212020;
+}
+.seccion-oscura{
+    color: #d5d3d3;
+    background-color: var(--grey-obs);
+}
+
+.seccion-clara{
+    color: black;
+    background-color: var(--grey-clair);
+}
+
+a{
+    text-decoration: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+h1,h2:hover{
+    color: #5e17eb;
+    transition: all 0.2s ease-in-out;
+}
+
+/*  */
+
+/* Hero */
+
+.hero{
+    background-color:#5f5c5c;
+    min-height: 620px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+    
+}
+
+.hero-principal h1{
+    color: #d5d3d3;
+}
+
+.hero-principal span{
+    color:#5e17eb;
+}
+
+.hero-imagen-desarrollador{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #d5d3d3;
+}
+
+.cv{
+    margin-top: 15px;
+}
+
+.cv a{
+    background-color: #272727;
+    border-radius: 30px;
+    border: 2px solid #5e17eb;
+    padding: 5px;
+    color: #d5d3d3;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+
+
+.cv a:hover{
+    background-color: #5e17eb83;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+

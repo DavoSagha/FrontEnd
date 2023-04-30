@@ -1,0 +1,64 @@
+/* GENERALES */
+:root{
+    --grey-obs: #272727;
+    --grey-clair: #5f5c5c;
+    --violet: #5e17eb;
+    --blanco: #d5d3d3;
+    --violet-fondo:#5e17eb83;
+    --grey-palabras:#212020;
+}
+.seccion-oscura{
+    color: #d5d3d3;
+    background-color: #272727;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: #5f5c5c;
+}
+
+h1,h2:hover{
+    color: #5e17eb;
+    transition: all 0.2s ease-in-out;
+}
+
+/*  */
+.row{
+    padding: 20px;
+}
+div{
+    color: #d5d3d3;
+    background-color: #272727;
+    text-align: center;
+}
+.seccion-texto{
+    font-size: 1.2rem;
+    
+}
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top:550px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 33%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 33%;
+        top:500px;
+    }
+}
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+}
