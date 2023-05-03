@@ -17,7 +17,7 @@
     background-color: #5f5c5c;
 }
 
-h1,h2:hover{
+h2:hover>span{
     color: #5e17eb;
     transition: all 0.2s ease-in-out;
 }
