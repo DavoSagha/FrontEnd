@@ -17,7 +17,7 @@
     background-color: #5f5c5c;
 }
 
-h1:hover,h2:hover{
+h1:hover{
     color: #5e17eb;
     transition: all 0.2s ease-in-out;
 }
@@ -34,4 +34,10 @@ div{
 
 h1, h3{
     display: inline;
+}
+h2{
+    color:#d5d3d3;
+}
+td{
+    color: white;
 }

@@ -25,7 +25,7 @@ h1:hover,h2:hover{
 .row{
     color: #d5d3d3;
     padding: 20px;
-    background-color: #5f5c5c;
+    background-color: #272727;
 }
 
 .contenedor{
@@ -39,4 +39,9 @@ h1:hover,h2:hover{
 
 .img-proyecto{
     box-shadow: 10px 10px 15px #000000;
+}
+
+.proy>img{
+    width: 70%;
+    height: 100px;
 }

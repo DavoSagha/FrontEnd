@@ -1,12 +1,17 @@
 <div class="acerca-de row" id="acerca-de">
-  <div class="img col-xs-12 col-sm-2 col-md-2 col-lg-2"><img id="fotodeperfil" src="../../../assets/davofachero.jpeg" class="img-fluid" /></div>
+
+    
+
+  <div class="img col-xs-12 col-sm-2 col-md-2 col-lg-2"><img id="fotodeperfil" src={{persona.img}} class="img-fluid" /></div>
   <div class="col-xs-6 col-sm-8 col-md-8 col-lg-8">
+    <div class="col-lg-2">
+      <button type="button" class="btn btn-primary btn-sm" routerLink="/editacercade/1" *ngIf="isLogged">
+        Editar persona
+    </button>
+    </div>
     <h2 class="seccion-titulo">Conoce a <span id="nombre">{{persona.nombre}} {{persona.apellido}}</span></h2>
-        <p class="seccion-texto">
-          Soy una persona enfocada, organizada, responsable y autodidacta, con
-          buenas relaciones interpersonales y constantes ganas de aprender.
-          Siempre tengo la mejor disposición para la realización de mis labores.
-          Busco un puesto de trabajo para ocupar mientras estudio.
+        <p class="seccion-texto descripcion">
+          {{persona.descripcion}}
         </p>
   </div>
 </div>

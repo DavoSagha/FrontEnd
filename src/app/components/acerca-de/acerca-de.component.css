@@ -32,28 +32,37 @@ div{
     text-align: center;
 }
 .seccion-texto{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     
 }
+
 /*Estilo de la foto de perfil*/
-@media (min-width: 576px){
+@media (min-width: 701px){
     #fotodeperfil{
-        position: absolute;
-        width: 15%;
+        width: 200px;
+        margin-top: -150px;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 3%;
-        top:550px;
+        top:80%;
+    }
+    .descripcion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
-@media (max-width: 575px){
+
+
+
+@media (max-width: 700px){
     #fotodeperfil{
-        position: absolute;
-        width: 33%;
+        width: 200px;
+        margin-top: -165px;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 33%;
-        top:500px;
+        left: 3%;
+        top:75%;
     }
 }
 
