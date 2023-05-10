@@ -43,6 +43,33 @@ h1:hover,h2:hover{
 a{
     text-decoration: none;
 }
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+
+
+.iconos-redes-sociales  a:hover{
+    border: 2px solid #5e17eb;
+
+}
+
+.login:hover {  
+    background-color: transparent;
+    border-color: #5e17eb;
+    color: #a37cff;
+}
+
 @media screen and (max-width: 767.98px) {
     nav{
         display: flex;
@@ -51,3 +78,4 @@ a{
     display: none;
     }
 }
+

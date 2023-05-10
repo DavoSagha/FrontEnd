@@ -34,10 +34,32 @@
         <li class="nav-item">
           <a class="nav-link" href="#proyecto">Proyectos</a>
         </li>
+        <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+      <ul class="navbar-nav d-flex justify-content-center align-items-center">
+        <li>
+          <a
+        href="https://www.linkedin.com/in/david-saghatelyan/"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><img src="../../../assets/linkedin.svg" alt="Logo linkedin"></a>
+        </li>
+        <li>
+          <a
+          href="https://github.com/DavoSagha"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="../../../assets/github.svg" alt=" Logo github"></a>
+        </li>
+
+      </ul>
+
+      </div>
       </ul>
     </div>
-    <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Ingreso</button>
-    <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESIÓN</button>
+    <button type="button" class="btn btn-outline-light login" (click)="login()" *ngIf="!isLogged">Ingreso</button>
+    <button type="button" class="btn btn-outline-light login" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESIÓN</button>
   </div>
   
 </nav>

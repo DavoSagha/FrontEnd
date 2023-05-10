@@ -17,7 +17,7 @@
     background-color: #5f5c5c;
 }
 
-h2:hover>span{
+h3:hover>span{
     color: #5e17eb;
     transition: all 0.2s ease-in-out;
 }
@@ -34,6 +34,11 @@ div{
 .seccion-texto{
     font-size: 1.5rem;
     
+}
+
+#nombre{
+    font-size: larger;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 /*Estilo de la foto de perfil*/

@@ -17,31 +17,27 @@
     background-color: #5f5c5c;
 }
 
-h1:hover,h2:hover{
+h1:hover{
     color: #5e17eb;
     transition: all 0.2s ease-in-out;
 }
+
 /*  */
 .row{
-    color: #d5d3d3;
     padding: 20px;
+}
+
+div{
+    color: #d5d3d3;
     background-color: #272727;
 }
 
-.contenedor{
-    width: auto;
+h1, h3{
+    display: inline;
 }
-
-.parte1, .parte2{
-    display: inline-block;
-    text-align: justify;
+h4{
+    color:#d5d3d3;
 }
-
-.img-proyecto{
-    box-shadow: 10px 10px 15px #000000;
-}
-
-.proy>img{
-    width: 70%;
-    height: 100px;
+td{
+    color: white;
 }

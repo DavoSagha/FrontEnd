@@ -9,12 +9,12 @@
 }
 .seccion-oscura{
     color: white;
-    background-color: var(--grey-obs);
+    background-color: var#272727;
 }
 
 .seccion-clara{
     color: black;
-    background-color: var(--grey-clair);
+    background-color: var#5f5c5c;
 }
 /*  */
 .footer-logo{
@@ -39,8 +39,8 @@
 
 
 .iconos-redes-sociales a:hover{
-    background-color: var(--violet);
-    border: 2px solid var(--blanco);
+    border-color: #5e17eb;
+    
 }
 
 
@@ -50,18 +50,12 @@
     color: #aeaeae;
     padding: 20px;
 }
-section{
-    min-height: 300px;
+footer{
+    min-height: 250px;
     background-color: #272727;
     font-size: 14px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    box-shadow: 2px -2px 5px #999;
 }
 
-@media screen and (min-width: 767.98px) {
-    section>img{
-    display: none;
-    }
-}

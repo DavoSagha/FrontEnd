@@ -21,20 +21,19 @@ h1:hover,h2:hover{
     color: #5e17eb;
     transition: all 0.2s ease-in-out;
 }
+
 /*  */
 .row{
     color: #d5d3d3;
     background-color: #5f5c5c;
-    /* padding: 20px; */
+     padding: 20px; 
 }
 
 .subir{
     margin-left: 10px;
 }
 
-.container{
-    margin:0;
-}
+
 
 .circulo{
     display: flex;
