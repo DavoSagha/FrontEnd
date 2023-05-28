@@ -1,4 +1,8 @@
 /* GENERALES */
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --grey-obs: #272727;
     --grey-clair: #5f5c5c;
@@ -36,6 +40,7 @@ h1,h2:hover{
     color: #5e17eb;
     transition: all 0.2s ease-in-out;
 }
+
 
 /*  */
 

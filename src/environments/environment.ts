@@ -11,6 +11,7 @@ export const environment = {
   },
 
   production: false,
-  URL: 'http://localhost:8080/'
+  URL: 'https://backendsm-c97n.onrender.com/'
+  //URL: 'http://localhost:8080/'
   //URL: ''
 };

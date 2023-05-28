@@ -7,6 +7,10 @@
     --violet-fondo:#5e17eb83;
     --grey-palabras:#212020;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 .seccion-oscura{
     color: white;
     background-color: var#272727;
